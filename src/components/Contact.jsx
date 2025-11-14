@@ -299,12 +299,7 @@ export default function Contact() {
             viewport={{ once: true }}
             transition={{ delay: 0.6 }}
           >
-            <div className="inline-flex items-center gap-2 px-5 py-3 contact-card rounded-full border border-slate-800">
-              <MapPin size={18} className="text-emerald-400" />
-              <span className="text-sm text-gray-400">
-                Available for remote opportunities worldwide
-              </span>
-            </div>
+            
           </motion.div>
         </div>
       </section>

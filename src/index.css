@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Smooth Scrolling - Enhanced */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px; /* Increased offset for navbar */
+}
+
+/* Make scroll even smoother */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Additional smoothness for all scrollable elements */
+* {
+  scroll-behavior: smooth;
+}
